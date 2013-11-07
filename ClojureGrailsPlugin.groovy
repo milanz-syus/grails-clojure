@@ -18,9 +18,9 @@ import clojure.lang.Compiler
 
 class ClojureGrailsPlugin {
     // the plugin version
-    def version = "0.7-SNAPSHOT"
+    def version = "1.0.3"
     // the version or versions of Grails the plugin is designed for
-    def grailsVersion = "1.2 > *"
+    def grailsVersion = "2.2 > *"
     // the other plugins this plugin depends on
     def dependsOn = [:]
     // resources that are excluded from plugin packaging
@@ -37,8 +37,8 @@ class ClojureGrailsPlugin {
     def observe = ['*']
     
     // TODO Fill in these fields
-    def author = "Jeff Brown"
-    def authorEmail = "jeff.brown@springsource.com"
+    def author = "Jeff Brown (Modifications by Milan Zimmermann)"
+    def authorEmail = ""
     def title = "Grails Clojure Plugin"
     def description = '''\\
 The Clojure plugin adds support for easily accessing Clojure code in a Grails application.
